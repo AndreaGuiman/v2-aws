@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: lightgrey;
+}
+
+.title{
+    text-align: center;
+}
+
+.card{
+    background-color: lightgreen;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.input-username{
+    margin-bottom: 1.25rem;
+}
+
+button{
+    margin: 0 auto;
+    width: fit-content;
+}
