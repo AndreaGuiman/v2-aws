@@ -1,1 +1,40 @@
-<p>signup works!</p>
+
+<div class="container">
+    <div class="custom-container">
+        <div class="container-fluid">
+            <div class="card" style="width: 400px">
+                <div class="container text-black">
+                    <h1>Create an account!</h1>
+                </div>
+                <div class="card-body" >
+                    <h3>Account credentials</h3>
+                    <p class="card-text">
+                        Enter your username:
+                    </p>
+                    <input mat-input type="text" class="input-username" id="username" placeholder="Username">
+                    <p class="card-text">
+                        Enter your password:
+                    </p>
+                    <input mat-input type="text" class="input-username" id="password" placeholder="Password">
+                    <h3>Account details</h3>
+                    <p class="card-text">
+                        Enter your name:
+                    </p>
+                    <input mat-input type="text" class="input-username" id="name" placeholder="Name">
+                    <p class="card-text">
+                        Enter your email address:
+                    </p>
+                    <input mat-input type="text" class="input-username" id="email" placeholder="Email address">
+                    <p class="card-text">
+                        Enter your telephone number:
+                    </p>
+                    <input mat-input type="text" class="input-username" id="telephoneNumber" placeholder="Telephone number">
+                    <p class="card-text"></p>
+                    <button (click)="signup()">
+                        Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,15 +1,22 @@
-.container-fluid{
-    background-color: lightgrey;
-}
-
 .title{
     text-align: center;
+    font-weight: bold;
 }
 
 .card{
-    background-color: lightgreen;
+    background-color: #cfcfcf;
     margin: 0 auto;
     width: 40%;
+    font-weight: bold;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+input{
+    background-color: #eeeeee;
+    font-weight: bold;
 }
 
 .input-username{
@@ -19,4 +26,27 @@
 button{
     margin: 0 auto;
     width: fit-content;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.my-overlay {
+    left: 0 !important;
+    top: 0 !important;
+    z-index: 10000 !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+    background-color: rgba(179, 178, 178, 0.9) !important;
+    cursor: pointer !important;
+    visibility: visible !important;
+    transition: visibility 0s, opacity 0.4s linear !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: wait !important;
+}
+
+.my-overlay i.fa.fa-spinner.fa-spin, .spinner-big {
+    font-size: 4rem !important;
 }

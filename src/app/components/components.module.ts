@@ -11,13 +11,23 @@ import { HomeComponent } from "./home/home.component";
 import { LoginComponent } from "./login/login.component";
 import { SignupComponent } from "./signup/signup.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { AccountComponent } from './account/account.component';
+import { ContactComponent } from './contact/contact.component'
+import { BookService } from "../service/book-service";
+import { ViewBookComponent } from './view-book/view-book.component';
+import { AddBookComponent } from './add-book/add-book.component';
 
 @NgModule({
     declarations: [
       HomeComponent,
       LoginComponent,
       SignupComponent,
-      PageNotFoundComponent
+      PageNotFoundComponent,
+      AccountComponent,
+      ContactComponent,
+      ViewBookComponent,
+      AddBookComponent
     ],
 
     imports: [
@@ -27,11 +37,16 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
       MatSelectModule,
       BrowserModule,
       BrowserAnimationsModule,
-      FormsModule
+      FormsModule,
+      MatSnackBarModule
+    ],
+
+    exports: [
+      MatSnackBarModule
     ],
 
     providers: [
-      UserService
+      UserService, BookService
     ],
 })
 

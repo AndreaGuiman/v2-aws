@@ -17,7 +17,10 @@
                 <input mat-input type="text" id="password" placeholder="Password">
             </div>
             <button (click)="login()">Log in</button>
-            <button>Sign up</button>
+            <button (click)="signup()">Sign up</button>
         </div>
     </div>
+</div>
+<div class="my-overlay" *ngIf="showOverlay">
+    <i class="fa fa-spinner fa-spin" aria-hidden="true"></i>
 </div>

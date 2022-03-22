@@ -4,7 +4,16 @@ html, body {
     height: 100%; 
 }
 body {
-    margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
-    color: #131516;
+    color: #222222;
+    background-color: #eeeeee;
+  }
+  
+  app-footer {
+    bottom: 0;
+    width: 100%;
+  }
+
+.mat-simple-snackbar span {
+    margin: auto;
+    text-align: center;
 }

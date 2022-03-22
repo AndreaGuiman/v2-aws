@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(206, 150, 150);
+    margin-bottom: 1.5rem;
+    height: 4rem;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    float: left;
+    padding-left: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #222222;
+  }
